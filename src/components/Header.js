@@ -1,20 +1,33 @@
 import React from "react";
-import { Container, Brend, Name, Stang, Drept, Button } from "./Header.styled";
+import {
+  Container,
+  Brend,
+  Name,
+  Stang,
+  Drept,
+  Button,
+  H,
+} from "./Header.styled";
+import Logo from "../img/Logo.jpg";
 
 const Header = () => {
   return (
-    <Container>
-      <Stang>
-        <Brend>logo</Brend>
-        <Name>Sabău Alexandru</Name>
-      </Stang>
-      <Drept>
-        <Button>1</Button>
-        <Button>1</Button>
-        <Button>1</Button>
-        <Button>1</Button>
-      </Drept>
-    </Container>
+    <H>
+      <Container>
+        <Stang>
+          <Brend>
+            <img src={Logo} alt="Logo" />
+          </Brend>
+          <Name>Sabău Alexandru</Name>
+        </Stang>
+        <Drept>
+          <Button>ceva</Button>
+          <Button>ceva</Button>
+          <Button>ceva</Button>
+          <Button>ceva</Button>
+        </Drept>
+      </Container>
+    </H>
   );
 };
 
