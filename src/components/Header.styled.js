@@ -63,6 +63,7 @@ export const Button = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f2f2f2;
   transition-duration: 0.4s;
   :hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
