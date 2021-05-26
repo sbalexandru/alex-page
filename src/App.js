@@ -1,14 +1,17 @@
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import SectionOne from "./components/SectionOne";
+import SectionTwo from "./components/SectionTwo";
+import SectionThree from "./components/SectionThree";
+import SectionFour from "./components/SectionFour";
 
 function App() {
   return (
     <>
       <Header />
       <SectionOne />
-      <SectionOne />
-      <Footer />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
     </>
   );
 }

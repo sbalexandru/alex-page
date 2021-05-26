@@ -1,11 +1,12 @@
 import React from "react";
-import { Back, Container, Text } from "./SectionOne.styled";
+import { Back, Container, Text, Title } from "./SectionOne.styled";
 
 const SectionOne = () => {
   return (
     <Back>
       <Container>
-        <Text>ceva text</Text>
+        <Text>Welcome to my page</Text>
+        <Title>Sabău Alexandru</Title>
       </Container>
     </Back>
   );

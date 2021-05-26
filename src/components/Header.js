@@ -21,10 +21,10 @@ const Header = () => {
           <Name>Sabău Alexandru</Name>
         </Stang>
         <Drept>
-          <Button>ceva</Button>
-          <Button>ceva</Button>
-          <Button>ceva</Button>
-          <Button>ceva</Button>
+          <Button>Home</Button>
+          <Button>About</Button>
+          <Button>Project</Button>
+          <Button>Contact</Button>
         </Drept>
       </Container>
     </H>
