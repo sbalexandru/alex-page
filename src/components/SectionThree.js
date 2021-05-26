@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Container } from "./SectionThree.styled";
 
 const SectionThree = () => {
   return (
-    <div>
+    <Container>
       <p>section3</p>
-    </div>
+    </Container>
   );
 };
 

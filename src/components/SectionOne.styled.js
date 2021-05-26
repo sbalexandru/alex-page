@@ -10,18 +10,19 @@ export const Back = styled.div`
   padding-top: 124px;
 `;
 
-export const Container = styled.div`
+export const ContainerOne = styled.div`
   width: 1200px;
   margin: auto;
 `;
 
 export const Text = styled.p`
-  font-family: "Squada One", cursive;
+  font-family: "Pattaya", sans-serif;
   font-size: 4rem;
+  padding: 10px;
 `;
 
 export const Title = styled.h1`
-  font-family: "Squada One", cursive;
+  font-family: "Pattaya", sans-serif;
   font-size: 5rem;
   font-weight: 400;
 `;

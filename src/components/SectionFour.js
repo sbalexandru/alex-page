@@ -1,10 +1,11 @@
 import React from "react";
+import { Container } from "./SectionFour.styled";
 
 const SectionFour = () => {
   return (
-    <div>
-      <p>section3</p>
-    </div>
+    <Container>
+      <p>section4</p>
+    </Container>
   );
 };
 
