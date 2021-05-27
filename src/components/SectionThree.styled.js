@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Back = styled.div`
   width: 100%;
-  min-height: 900px;
+  min-height: 1000px;
   border-top: 3px solid rgb(77, 77, 77);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
   background-color: rgb(191, 191, 191);
@@ -15,7 +15,9 @@ export const Container = styled.div`
   display: block;
   text-align: center;
 `;
+
 export const Title = styled.h1`
+  display: block;
   font-family: "Pattaya", sans-serif;
   font-size: 5rem;
   font-weight: 400;
@@ -31,8 +33,6 @@ export const Grid = styled.table`
 `;
 
 export const Child = styled.div`
-  /* align-items: center; */
-  /* text-align: center; */
   margin: 30px;
 `;
 

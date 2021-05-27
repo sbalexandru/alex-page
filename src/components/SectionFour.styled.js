@@ -4,7 +4,40 @@ export const Container = styled.div`
   width: 1200px;
   margin: auto;
   height: 400px;
-  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%); */
-  border-bottom: 1px solid black;
-  /* background-color: #ccffff; */
+  display: block;
+  text-align: center;
 `;
+
+export const Title = styled.h1`
+  display: block;
+  font-family: "Pattaya", sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  padding-top: 100px;
+  margin-bottom: 40px;
+`;
+
+export const Parent = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+export const Name = styled.p`
+  font-family: "Pattaya", sans-serif;
+  font-size: 4rem;
+  padding: 10px;
+`;
+
+export const Child = styled.div`
+  display: block;
+`;
+
+export const Font = styled.p``;
+
+export const ChildTwo = styled.div`
+  display: block;
+`;
+
+export const FonTwo = styled.p``;

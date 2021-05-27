@@ -17,6 +17,7 @@ const SectionThree = () => {
     <Back>
       <Container>
         <Title>My Project</Title>
+
         <Grid>
           <Child>
             <Img>
@@ -26,8 +27,7 @@ const SectionThree = () => {
             </Img>
             <Text>IT School - Final Project</Text>
           </Child>
-        </Grid>
-        <Grid>
+
           <Child>
             <Img>
               <a href="#">
@@ -36,8 +36,7 @@ const SectionThree = () => {
             </Img>
             <Text>Project under construction</Text>
           </Child>
-        </Grid>
-        <Grid>
+
           <Child>
             <Img>
               <a href="#">
@@ -46,8 +45,7 @@ const SectionThree = () => {
             </Img>
             <Text>Project Loading</Text>
           </Child>
-        </Grid>
-        <Grid>
+
           <Child>
             <Img>
               <a href="#">
