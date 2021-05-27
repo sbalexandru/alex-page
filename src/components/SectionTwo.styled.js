@@ -1,33 +1,44 @@
 import styled from "styled-components";
 
-export const Back = styled.div`
-  width: 100%;
-  min-height: 400px;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
-  background-color: #ccffff;
+export const Line = styled.div`
+  border-top: 3px solid rgb(77, 77, 77);
 `;
 
 export const Container = styled.div`
   width: 1200px;
   margin: auto;
-  height: 400px;
-  display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
-  padding-top: 50px;
+  height: 600px;
+  display: block;
+  align-items: center;
+  text-align: center;
 `;
 
-export const Table = styled.table``;
+export const Abaut = styled.h1`
+  font-family: "Pattaya", sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  padding-top: 100px;
+  margin-bottom: 40px;
+`;
 
-export const Coloana = styled.div`
-  width: 200px;
-  height: 50px;
-  border: 1px solid black;
-  border-radius: 5px;
-  text-align: center;
+export const Parent = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
+
+export const Img = styled.div`
+  & > img {
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
 `;
 
 export const Text = styled.p`
-  font-size: 2rem;
-  text-align: center;
+  margin: 20px;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-family: "Stint Ultra Condensed", cursive;
 `;

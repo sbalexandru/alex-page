@@ -1,36 +1,30 @@
 import React from "react";
-import { Container, Coloana, Text, Back } from "./SectionTwo.styled";
-import { Col, Row } from "reactstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Line, Abaut, Parent, Img, Text } from "./SectionTwo.styled";
+import Cv from "../img/cv.jpg";
 
 const SectionTwo = () => {
   return (
-    <Back>
+    <>
+      <Line />
       <Container>
-        <Row xs="2">
-          <Col>
-            <Coloana>
-              <Text>Column</Text>
-            </Coloana>
-          </Col>
-          <Col>
-            <Coloana>
-              <Text>Column</Text>
-            </Coloana>
-          </Col>
-          <Col>
-            <Coloana>
-              <Text>Column</Text>
-            </Coloana>
-          </Col>
-          <Col>
-            <Coloana>
-              <Text>Column</Text>
-            </Coloana>
-          </Col>
-        </Row>
+        <Abaut>About me</Abaut>
+        <Parent>
+          <Img>
+            <img src={Cv} />
+          </Img>
+          <Text>
+            I like to take part in projects which challenge myself everyday,
+            giving me the opportunity to learn new skills. I work well
+            independent and as part of a team too, for me it's important to keep
+            good relations with my colleagues. My experience in technical
+            support and problem solving was helped me developing my skills about
+            excellent communication and customer relationship. I'm at the
+            beginning of the road in my web career, I need more experience and
+            guidance to be a better web developer.
+          </Text>
+        </Parent>
       </Container>
-    </Back>
+    </>
   );
 };
 

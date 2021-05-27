@@ -1,11 +1,64 @@
 import React from "react";
-import { Container } from "./SectionThree.styled";
+import {
+  Container,
+  Img,
+  Text,
+  Back,
+  Grid,
+  Child,
+  Title,
+} from "./SectionThree.styled";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ProjectImg from "../img/project-school.jpg";
+import ProjectBuffering from "../img/buffering.jpg";
 
 const SectionThree = () => {
   return (
-    <Container>
-      <p>section3</p>
-    </Container>
+    <Back>
+      <Container>
+        <Title>My Project</Title>
+        <Grid>
+          <Child>
+            <Img>
+              <a href="https://alex-sabau-proiect-final.netlify.app/">
+                <img src={ProjectImg} alt="farst project" />
+              </a>
+            </Img>
+            <Text>IT School - Final Project</Text>
+          </Child>
+        </Grid>
+        <Grid>
+          <Child>
+            <Img>
+              <a href="#">
+                <img src={ProjectBuffering} alt="Project Loading" />
+              </a>
+            </Img>
+            <Text>Project under construction</Text>
+          </Child>
+        </Grid>
+        <Grid>
+          <Child>
+            <Img>
+              <a href="#">
+                <img src={ProjectBuffering} alt="Project Loading" />
+              </a>
+            </Img>
+            <Text>Project Loading</Text>
+          </Child>
+        </Grid>
+        <Grid>
+          <Child>
+            <Img>
+              <a href="#">
+                <img src={ProjectBuffering} alt="Project Loading" />
+              </a>
+            </Img>
+            <Text>Project Loading</Text>
+          </Child>
+        </Grid>
+      </Container>
+    </Back>
   );
 };
 
