@@ -6,8 +6,8 @@ export const Line = styled.div`
 
 export const Container = styled.div`
   width: 1200px;
-  margin: auto;
-  height: 600px;
+  margin: 0 auto;
+  padding-bottom: 100px;
   display: block;
   align-items: center;
   text-align: center;
@@ -19,12 +19,20 @@ export const Abaut = styled.h1`
   font-weight: 400;
   padding-top: 100px;
   margin-bottom: 40px;
+  @media (max-width: 768px) {
+    font-size: 3.5rem;
+  }
 `;
 
 export const Parent = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Img = styled.div`
@@ -33,12 +41,20 @@ export const Img = styled.div`
     height: 180px;
     border: 1px solid black;
     border-radius: 50%;
+    @media (max-width: 768px) {
+      width: 120px;
+      height: 120px;
+    }
   }
 `;
 
-export const Text = styled.p`
+export const Text = styled.div`
   margin: 20px;
   font-size: 3rem;
   line-height: 1.2;
   font-family: "Stint Ultra Condensed", cursive;
+  @media (max-width: 768px) {
+    width: 300px;
+    text-align: center;
+  }
 `;

@@ -30,6 +30,10 @@ export const Grid = styled.table`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+  }
 `;
 
 export const Child = styled.div`

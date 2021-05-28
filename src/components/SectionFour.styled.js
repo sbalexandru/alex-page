@@ -22,6 +22,11 @@ export const Parent = styled.div`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Name = styled.p`
@@ -42,7 +47,6 @@ export const Child = styled.div`
 
 export const Font = styled.p`
   font-size: 2rem;
-  
 `;
 
 export const ChildTwo = styled.div`

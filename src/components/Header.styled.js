@@ -8,7 +8,7 @@ export const H = styled.header`
   top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 2;
 `;
 
 export const Container = styled.div`
@@ -18,6 +18,11 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Brend = styled.div`
@@ -32,6 +37,9 @@ export const Brend = styled.div`
     height: 50px;
     margin-right: 5px;
     border-radius: 50%;
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 `;
 
@@ -40,6 +48,9 @@ export const Name = styled.h1`
   font-weight: 900;
   color: #262626;
   font-family: "Pattaya", sans-serif;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Stang = styled.div`

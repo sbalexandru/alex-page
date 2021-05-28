@@ -3,7 +3,7 @@ import BgImg from "../img/computer.jpg";
 
 export const Back = styled.div`
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url(${BgImg});
   background-position: center;
   background-size: cover;
