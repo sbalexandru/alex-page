@@ -14,10 +14,13 @@ import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 const SectionFour = () => {
   return (
-    <Container>
+    <Container className="contactSection" id="Contact">
       <Title>Contact</Title>
       <Parent>
-        <Name>Sabău Alexandru</Name>
+        <Name>
+          Sabău Alexandru <span>Front-end Developer</span>
+        </Name>
+
         <Child>
           <Font>
             <FontAwesomeIcon i class={faCoffee} />

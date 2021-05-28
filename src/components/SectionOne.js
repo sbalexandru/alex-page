@@ -1,12 +1,10 @@
 import React from "react";
 import { Back, ContainerOne, Text, Title } from "./SectionOne.styled";
 import { Container, Row, Col } from "reactstrap";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const SectionOne = () => {
   return (
-    <Back>
-      <AnchorLink offset="100" href="#Home" />
+    <Back className="main-section" id="Home">
       <ContainerOne>
         <Container>
           <Row>

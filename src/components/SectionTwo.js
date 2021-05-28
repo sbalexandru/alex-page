@@ -6,7 +6,7 @@ const SectionTwo = () => {
   return (
     <>
       <Line />
-      <Container>
+      <Container className="about-section" id="About">
         <Abaut>About me</Abaut>
         <Parent>
           <Img>

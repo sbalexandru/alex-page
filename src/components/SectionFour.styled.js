@@ -28,13 +28,22 @@ export const Name = styled.p`
   font-family: "Pattaya", sans-serif;
   font-size: 4rem;
   padding: 10px;
+  line-height: 1.5;
+  & > span {
+    font-size: 3rem;
+    line-height: 1;
+    display: block;
+  }
 `;
 
 export const Child = styled.div`
   display: block;
 `;
 
-export const Font = styled.p``;
+export const Font = styled.p`
+  font-size: 2rem;
+  
+`;
 
 export const ChildTwo = styled.div`
   display: block;

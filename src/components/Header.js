@@ -9,6 +9,7 @@ import {
   H,
 } from "./Header.styled";
 import Logo from "../img/Logo.jpg";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
@@ -20,11 +21,50 @@ const Header = () => {
           </Brend>
           <Name>Sabău Alexandru</Name>
         </Stang>
-        <Drept>
-          <Button>Home</Button>
-          <Button>About</Button>
-          <Button>Project</Button>
-          <Button>Contact</Button>
+        <Drept className="navBar">
+          <Link
+            activeClass="active"
+            to="Home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button>Home</Button>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button>About</Button>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="Project"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button>Project</Button>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <Button>Contact</Button>
+          </Link>
         </Drept>
       </Container>
     </H>

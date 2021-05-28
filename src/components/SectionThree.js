@@ -15,7 +15,7 @@ import ProjectBuffering from "../img/buffering.jpg";
 const SectionThree = () => {
   return (
     <Back>
-      <Container>
+      <Container className="projectSection" id="Project">
         <Title>My Project</Title>
 
         <Grid>
