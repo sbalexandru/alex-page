@@ -43,13 +43,7 @@ export const Img = styled.div`
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
   }
-  & > a {
-    width: 300px;
-    height: 200px;
-    border: 1px solid black;
-    border-radius: 5px;
-  }
-  & > img {
+  & > * > * {
     width: 300px;
     height: 200px;
     border: 1px solid black;
