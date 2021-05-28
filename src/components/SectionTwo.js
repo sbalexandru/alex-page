@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Line, Abaut, Parent, Img, Text } from "./SectionTwo.styled";
-import Cv from "../img/cv.jpg";
+import ImgCv from "../img/cv.jpg";
 
 const SectionTwo = () => {
   return (
@@ -10,7 +10,7 @@ const SectionTwo = () => {
         <Abaut>About me</Abaut>
         <Parent>
           <Img>
-            <img src={Cv} />
+            <img src={ImgCv} alt="Img" />
           </Img>
           <Text>
             I like to take part in projects which challenge myself everyday,

@@ -30,27 +30,21 @@ const SectionThree = () => {
 
           <Child>
             <Img>
-              <a href="#">
-                <img src={ProjectBuffering} alt="Project Loading" />
-              </a>
+              <img src={ProjectBuffering} alt="Project Loading" />
             </Img>
             <Text>Project under construction</Text>
           </Child>
 
           <Child>
             <Img>
-              <a href="#">
-                <img src={ProjectBuffering} alt="Project Loading" />
-              </a>
+              <img src={ProjectBuffering} alt="Project Loading" />
             </Img>
             <Text>Project Loading</Text>
           </Child>
 
           <Child>
             <Img>
-              <a href="#">
-                <img src={ProjectBuffering} alt="Project Loading" />
-              </a>
+              <img src={ProjectBuffering} alt="Project Loading" />
             </Img>
             <Text>Project Loading</Text>
           </Child>
