@@ -47,10 +47,13 @@ export const Child = styled.div`
 
 export const Font = styled.p`
   font-size: 2rem;
+  font-weight: 700;
 `;
 
 export const ChildTwo = styled.div`
   display: block;
 `;
 
-export const FonTwo = styled.p``;
+export const Mail = styled.p`
+  font-size: 2rem;
+`;
