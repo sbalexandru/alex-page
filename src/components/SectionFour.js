@@ -28,7 +28,7 @@ const SectionFour = () => {
           </Font>
 
           <Font>
-            <a href="linkedin.com/in/sabău-alexandru-25503b5a" alt="LinkedIn">
+            <a href="https://linkedin.com/in/sabău-alexandru-25503b5a" alt="LinkedIn">
               <FaLinkedin /> LinkedIn
             </a>
           </Font>
