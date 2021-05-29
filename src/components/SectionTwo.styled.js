@@ -39,8 +39,8 @@ export const Img = styled.div`
   & > img {
     width: 180px;
     height: 180px;
-    border: 1px solid black;
-    border-radius: 50%;
+    border: 3px solid black;
+    border-radius: 20%;
     @media (max-width: 768px) {
       width: 120px;
       height: 120px;
