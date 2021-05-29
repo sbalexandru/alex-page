@@ -13,7 +13,7 @@ const SectionOne = () => {
             </Col>
             <Row>
               <Col>
-                {/* <Title>Sabău Alexandru / SABĂU ALEXANDRU</Title> */}
+                <Title>Sabău Alexandru / SABĂU ALEXANDRU</Title>
               </Col>
             </Row>
           </Row>
