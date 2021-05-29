@@ -18,7 +18,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   display: block;
-  font-family: "Pattaya", sans-serif;
+  font-family: "Nothing You Could Do", cursive;
   font-size: 5rem;
   font-weight: 400;
   padding-top: 100px;
@@ -56,6 +56,6 @@ export const Img = styled.div`
 `;
 
 export const Text = styled.p`
-  font-size: 2rem;
-  font-family: "Sigmar One", cursive;
+  font-size: 2.2rem;
+  font-family: 'Allerta Stencil', sans-serif;
 `;

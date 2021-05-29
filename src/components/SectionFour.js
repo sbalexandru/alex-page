@@ -23,8 +23,7 @@ const SectionFour = () => {
         <Child>
           <Font>
             <a href="https://github.com/sbalexandru" alt="Git">
-              <FaGithub />
-              GitHub
+              <FaGithub /> GitHub
             </a>
           </Font>
 

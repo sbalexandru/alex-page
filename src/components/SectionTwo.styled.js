@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Abaut = styled.h1`
-  font-family: "Pattaya", sans-serif;
+  font-family: "Nothing You Could Do", cursive;
   font-size: 5rem;
   font-weight: 400;
   padding-top: 100px;
@@ -52,7 +52,8 @@ export const Text = styled.div`
   margin: 20px;
   font-size: 3rem;
   line-height: 1.2;
-  font-family: "Stint Ultra Condensed", cursive;
+  
+  font-family: 'Nothing You Could Do', cursive;
   @media (max-width: 768px) {
     width: 300px;
     text-align: center;

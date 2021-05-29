@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   display: block;
-  font-family: "Pattaya", sans-serif;
+  font-family: "Nothing You Could Do", cursive;
   font-size: 5rem;
   font-weight: 400;
   padding-top: 100px;
@@ -30,7 +30,7 @@ export const Parent = styled.div`
 `;
 
 export const Name = styled.p`
-  font-family: "Pattaya", sans-serif;
+  font-family: "Nothing You Could Do", cursive;
   font-size: 4rem;
   padding: 10px;
   line-height: 1.5;
@@ -48,6 +48,7 @@ export const Child = styled.div`
 export const Font = styled.p`
   font-size: 2rem;
   font-weight: 700;
+  font-family: "Allerta Stencil", sans-serif;
 `;
 
 export const ChildTwo = styled.div`

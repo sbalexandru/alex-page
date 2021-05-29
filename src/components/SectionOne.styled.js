@@ -16,13 +16,13 @@ export const ContainerOne = styled.div`
 `;
 
 export const Text = styled.p`
-  font-family: "Pattaya", sans-serif;
+  font-family: "Nothing You Could Do", cursive;
   font-size: 4rem;
   padding: 10px;
 `;
 
 export const Title = styled.h1`
-  font-family: "Pattaya", sans-serif;
+  font-family: "Nothing You Could Do", cursive;
   font-size: 5rem;
   font-weight: 400;
 `;
