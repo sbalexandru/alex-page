@@ -26,17 +26,13 @@ export const Container = styled.div`
 `;
 
 export const Brend = styled.div`
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  align-content: stretch;
+  margin: 0 20px;
 
   & > img {
     display: block;
-    width: 50px;
-    height: 50px;
-    margin-right: 5px;
-    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
     @media (max-width: 768px) {
       display: none;
     }
@@ -44,7 +40,7 @@ export const Brend = styled.div`
 `;
 
 export const Name = styled.h1`
-  font-size: 20px;
+  font-size: 3rem;
   font-weight: 900;
   color: #262626;
   font-family: "Pattaya", sans-serif;
@@ -54,7 +50,9 @@ export const Name = styled.h1`
 `;
 
 export const Stang = styled.div`
-  display: block;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
   padding: 10px;
 `;
 

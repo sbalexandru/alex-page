@@ -8,7 +8,7 @@ import {
   Button,
   H,
 } from "./Header.styled";
-import Logo from "../img/Logo.jpg";
+import Logo from "../img/Logo.png";
 import { Link } from "react-scroll";
 
 const Header = () => {
