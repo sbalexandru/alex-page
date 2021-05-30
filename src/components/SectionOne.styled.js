@@ -23,7 +23,7 @@ export const Text = styled.p`
 
 export const Title = styled.h1`
   font-family: "Nothing You Could Do", cursive;
-  display: none;
+  /* display: none; */
   font-size: 5rem;
   font-weight: 400;
 `;
