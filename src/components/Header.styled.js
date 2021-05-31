@@ -43,7 +43,7 @@ export const Name = styled.h1`
   font-size: 3rem;
   font-weight: 900;
   color: #262626;
-  font-family: "Over the Rainbow", cursive;
+  font-family: "Caveat", cursive;
   @media (max-width: 768px) {
     display: none;
   }

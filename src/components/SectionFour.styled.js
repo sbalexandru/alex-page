@@ -35,7 +35,7 @@ export const Parent = styled.div`
 `;
 
 export const Name = styled.p`
-  font-family: "Nothing You Could Do", cursive;
+  font-family: "Caveat", cursive;
   font-size: 4rem;
   padding: 10px;
   line-height: 1.5;
@@ -62,4 +62,7 @@ export const ChildTwo = styled.div`
 
 export const Mail = styled.p`
   font-size: 2rem;
+  @media (max-width: 768px) {
+    padding-bottom: 40px;
+  }
 `;

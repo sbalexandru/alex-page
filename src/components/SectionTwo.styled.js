@@ -35,7 +35,6 @@ export const Parent = styled.div`
   align-items: center;
   @media (max-width: 768px) {
     display: block;
-    width: 100%;
     text-align: center;
   }
 `;
@@ -59,7 +58,6 @@ export const Text = styled.div`
   line-height: 1.2;
   font-family: "Roboto Mono", monospace;
   @media (max-width: 768px) {
-    width: 300px;
     text-align: center;
     font-size: 2rem;
   }

@@ -8,6 +8,9 @@ export const Back = styled.div`
   background-position: center;
   background-size: cover;
   padding-top: 124px;
+  @media (max-width: 768px) {
+    width: auto;
+  }
 `;
 
 export const ContainerOne = styled.div`
@@ -32,7 +35,7 @@ export const Text = styled.p`
 `;
 
 export const Title = styled.h1`
-  font-family: "Nothing You Could Do", cursive;
+  font-family: "Caveat", cursive;
   font-size: 5rem;
   font-weight: 400;
   @media (max-width: 768px) {
