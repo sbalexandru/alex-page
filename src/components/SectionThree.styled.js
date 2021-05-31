@@ -14,6 +14,11 @@ export const Container = styled.div`
   height: auto;
   display: block;
   text-align: center;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Title = styled.h1`
@@ -52,10 +57,15 @@ export const Img = styled.div`
     height: 200px;
     border: 1px solid black;
     border-radius: 5px;
+    @media (max-width: 768px) {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
   }
 `;
 
 export const Text = styled.p`
   font-size: 2.2rem;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
 `;

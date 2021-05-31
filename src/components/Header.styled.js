@@ -43,7 +43,7 @@ export const Name = styled.h1`
   font-size: 3rem;
   font-weight: 900;
   color: #262626;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: "Over the Rainbow", cursive;
   @media (max-width: 768px) {
     display: none;
   }
@@ -51,7 +51,6 @@ export const Name = styled.h1`
 
 export const Stang = styled.div`
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 10px;
 `;
@@ -79,5 +78,9 @@ export const Button = styled.div`
   :hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
       0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  @media (max-width: 768px) {
+    width: 80px;
+    height: 30px;
   }
 `;

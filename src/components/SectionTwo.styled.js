@@ -11,6 +11,11 @@ export const Container = styled.div`
   display: block;
   align-items: center;
   text-align: center;
+  @media (max-width: 768px) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 `;
 
 export const Abaut = styled.h1`
@@ -52,10 +57,10 @@ export const Text = styled.div`
   margin: 20px;
   font-size: 3rem;
   line-height: 1.2;
-  
-  font-family: 'Nothing You Could Do', cursive;
+  font-family: "Roboto Mono", monospace;
   @media (max-width: 768px) {
     width: 300px;
     text-align: center;
+    font-size: 2rem;
   }
 `;
