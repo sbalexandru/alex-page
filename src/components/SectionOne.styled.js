@@ -2,7 +2,7 @@ import styled from "styled-components";
 import BgImg from "../img/computer.jpg";
 
 export const Back = styled.div`
-  width: 100%;
+  width: 100% , max-content;
   height: 100vh;
   background-image: url(${BgImg});
   background-position: center;
@@ -27,6 +27,7 @@ export const Text = styled.p`
   font-family: "Nothing You Could Do", cursive;
   font-size: 4rem;
   padding: 10px;
+  font-weight: 900;
   @media (max-width: 768px) {
     font-weight: 900;
     text-shadow: -1px 7px 8px rgba(150, 150, 150, 1);
@@ -37,7 +38,7 @@ export const Text = styled.p`
 export const Title = styled.h1`
   font-family: "Caveat", cursive;
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: 900;
   @media (max-width: 768px) {
     font-weight: 900;
     text-shadow: -1px 7px 8px rgba(150, 150, 150, 1);

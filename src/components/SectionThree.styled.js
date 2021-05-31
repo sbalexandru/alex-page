@@ -9,6 +9,7 @@ export const Back = styled.div`
   @media (max-width: 768px) {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     padding-bottom: 20px;
+    width: 100%;
   }
 `;
 
@@ -29,7 +30,7 @@ export const Title = styled.h1`
   display: block;
   font-family: "Nothing You Could Do", cursive;
   font-size: 5rem;
-  font-weight: 400;
+  font-weight: 900;
   padding-top: 100px;
   margin-bottom: 40px;
 `;
