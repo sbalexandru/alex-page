@@ -2,7 +2,7 @@ import styled from "styled-components";
 import BgImg from "../img/computer.jpg";
 
 export const Back = styled.div`
-  width: 100% , max-content;
+  width: auto;
   height: 100vh;
   background-image: url(${BgImg});
   background-position: center;
@@ -16,6 +16,7 @@ export const Back = styled.div`
 export const ContainerOne = styled.div`
   width: 1200px;
   margin: auto;
+
   @media (max-width: 768px) {
     display: block;
     width: 100%;
@@ -30,7 +31,11 @@ export const Text = styled.p`
   font-weight: 900;
   @media (max-width: 768px) {
     font-weight: 900;
-    text-shadow: -1px 7px 8px rgba(150, 150, 150, 1);
+    
+    text-shadow: -1px -1px 0 #ffffff,
+     0px 0px 0 #ffffff,
+     0px 0px 0 #ffffff,
+      0px 0px 0 #ffffff;
     line-height: 2;
   }
 `;
@@ -41,7 +46,11 @@ export const Title = styled.h1`
   font-weight: 900;
   @media (max-width: 768px) {
     font-weight: 900;
-    text-shadow: -1px 7px 8px rgba(150, 150, 150, 1);
+    
+    text-shadow: -1px -1px 0 #ffffff,
+     0px 0px 0 #ffffff,
+     0px 0px 0 #ffffff,
+      0px 0px 0 #ffffff;
     line-height: 2;
   }
 `;

@@ -53,12 +53,15 @@ export const Img = styled.div`
 `;
 
 export const Text = styled.div`
-  margin: 20px;
+  margin: 4rem;
   font-size: 3rem;
   line-height: 1.2;
-  font-family: "Roboto Mono", monospace;
+  text-align: justify;
+  text-indent: 50px;
+  font-family: "Open Sans", sans-serif;
+
   @media (max-width: 768px) {
-    text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin: 3rem;
   }
 `;

@@ -6,10 +6,14 @@ export const Back = styled.div`
   border-top: 3px solid rgb(77, 77, 77);
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
   background-color: rgb(191, 191, 191);
+
   @media (max-width: 768px) {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     padding-bottom: 20px;
     width: 100%;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 `;
 
