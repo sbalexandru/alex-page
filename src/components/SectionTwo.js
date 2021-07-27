@@ -20,7 +20,7 @@ const SectionTwo = () => {
             support and problem solving was helped me developing my skills about
             excellent communication and customer relationship. I'm at the
             beginning of the road in my web career, I need more experience and
-            guidance to be a better web developer..
+            guidance to be a better web developer.
           </Text>
         </Parent>
       </Container>
