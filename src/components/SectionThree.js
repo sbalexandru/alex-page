@@ -21,7 +21,7 @@ const SectionThree = () => {
         <Grid>
           <Child>
             <Img>
-              <a href="https://alex-sabau-proiect-final.netlify.app/">
+              <a href="https://vizizebra.netlify.app">
                 <img src={ProjectImg} alt="farst project" />
               </a>
             </Img>
