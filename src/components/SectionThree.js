@@ -11,6 +11,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectImg from "../img/project-school.jpg";
 import ProjectBuffering from "../img/buffering.jpg";
+import sportprevent from "../img/sportprevent.jpg";
 
 const SectionThree = () => {
   return (
@@ -30,11 +31,11 @@ const SectionThree = () => {
 
           <Child>
             <Img>
-              <a href="1" alt="second prohject">
-                <img src={ProjectBuffering} alt="Project Loading" />
+              <a href="https://sportprevent.netlify.app" alt="second prohject">
+                <img src={sportprevent} alt="Project Loading" />
               </a>
             </Img>
-            <Text>Project under construction</Text>
+            <Text>SportPrevent</Text>
           </Child>
 
           <Child>
@@ -43,7 +44,7 @@ const SectionThree = () => {
                 <img src={ProjectBuffering} alt="Project Loading" />
               </a>
             </Img>
-            <Text>Project Loading</Text>
+            <Text>Project under construction</Text>
           </Child>
 
           <Child>
