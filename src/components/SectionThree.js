@@ -12,6 +12,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import ProjectImg from "../img/project-school.jpg";
 import ProjectBuffering from "../img/buffering.jpg";
 import sportprevent from "../img/sportprevent.jpg";
+import kurpeKarpit from "../img/kurpe-karpit.png";
 
 const SectionThree = () => {
   return (
@@ -22,7 +23,12 @@ const SectionThree = () => {
         <Grid>
           <Child>
             <Img>
-              <a href="https://vizizebra.netlify.app">
+              <a
+                href="https://vizizebra.netlify.app"
+                alt="first project"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={ProjectImg} alt="farst project" />
               </a>
             </Img>
@@ -31,7 +37,12 @@ const SectionThree = () => {
 
           <Child>
             <Img>
-              <a href="https://sportprevent.netlify.app" alt="second prohject">
+              <a
+                href="https://sportprevent.netlify.app"
+                alt="second prohject"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={sportprevent} alt="Project Loading" />
               </a>
             </Img>
@@ -40,8 +51,13 @@ const SectionThree = () => {
 
           <Child>
             <Img>
-              <a href="2" alt="second prohject">
-                <img src={ProjectBuffering} alt="Project Loading" />
+              <a
+                href="https://kurpe-karpit.netlify.app/"
+                alt="second prohject"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={kurpeKarpit} alt="Project Loading" />
               </a>
             </Img>
             <Text>Project under construction</Text>
