@@ -13,6 +13,7 @@
     "ansi-regex": "^6.0.1",
     "axios": "^0.21.2",
     "bootstrap": "^5.0.1",
+    "browserslist": "^4.20.4",
     "ejs": "^3.1.8",
     "glob-parent": "^6.0.2",
     "immer": "^9.0.14",
